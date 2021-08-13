@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Receive table
+# key: rtbl
+# --
+`(setq % (if (laas-mathp) "%" "#"))` BEGIN RECEIVE ORGTBL ${1:name}
+`%` END RECEIVE ORGTBL $1
+$0
