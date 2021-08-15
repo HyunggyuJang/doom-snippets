@@ -2,5 +2,5 @@
 # name: Send table
 # key: stbl
 # --
-#+ORGTBL: SEND ${1:name} +orgtbl-to-latex-tbl ${2:$(if (> (length yas-text) 0) ":environment ")}${2:bmatrix} :latex-table-scientific-notation "%s\\\\times10^{%s}" :latex-default-table-mode math
+#+ORGTBL: SEND ${1:name} +orgtbl-to-latex-tbl :environment ${2:bmatrix} :latex-table-scientific-notation "%s\\times10^{%s}" :raw t
 $0
