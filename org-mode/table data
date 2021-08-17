@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: table data
 # key: dtbl
+# expand-env: ((yas-after-exit-snippet-hook (lambda () (add-text-properties (point-at-eol 0) (point-at-bol 2) `(local-map ,aas-map)))))
 # --
 *************** table data :noexport:
 # \[
