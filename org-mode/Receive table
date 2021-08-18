@@ -2,5 +2,7 @@
 # name: Receive table
 # key: rtbl
 # --
-`(setq % (if (laas-mathp) "%" "#"))` BEGIN RECEIVE ORGTBL ${1:name}
+`(setq %
+(if (org-element-lineage (org-element-context) '(latex-fragment latex-environment) t)
+"%" "#"))` BEGIN RECEIVE ORGTBL ${1:name}
 `%` END RECEIVE ORGTBL $1
