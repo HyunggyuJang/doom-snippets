@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: table data
 # key: dtbl
-# expand-env: ((yas-after-exit-snippet-hook (lambda () (aas--make-control-overlay (point-at-eol 0) (point-at-bol 2)))))
+# expand-env: ((yas-after-exit-snippet-hook (lambda () (aas--make-control-overlay (point-at-eol 0) (point-at-eol 2)))))
 # --
 *************** table data :noexport:
 # \[
