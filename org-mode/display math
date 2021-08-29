@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# name: display math
-# key: M
-# expand-env: ((yas-after-exit-snippet-hook (lambda () (aas--make-control-overlay (1- (point)) (1+ (point))))))
-# --
-\\[
-`%`$0
-\\]
