@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: inline math
+# key: m
+# expand-env: ((yas-after-exit-snippet-hook (lambda () (aas--make-control-overlay (1- (point)) (1+ (point))))))
+# --
+\\( `%`$0 \\)
