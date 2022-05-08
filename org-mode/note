@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: :META:
+# uuid: note
+# key: <n
+# --
+:META:
+`%`$0
+:END:
