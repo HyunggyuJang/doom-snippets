@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: begin
-# key: begin
-# uuid: begin
+# key: beg
+# uuid: beg
 # --
 #+begin_${1:type} ${2:options}
 `%`$0
